@@ -1,3 +1,4 @@
+########### zfs ###########
 zpool status
 
 zpool create имя_пула диски_через_пробел(например: /dev/sda /dev/sdb ... и т.д.)
@@ -10,4 +11,11 @@ dpkg -i имя_deb_пакета - установить что то
 
 apt -f install - подтягивает недостающие зависимости
 
-изменение1
+########### git ###########
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git status
+git add . - добавить в очередь все файлы
+git commit -m "комментарий"
+git push -f origin master - залить в репозиторий
